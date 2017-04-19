@@ -6,7 +6,7 @@ Web Timers is a Web Worker based utility to provide a more reliable/precise appr
 
 [Complications further arise](http://stackoverflow.com/a/16033979) when the tab is inactive, however, you still want some functionality to execute reliably at some interval in the background.
 
-Web Timers addresses this by using HTML5's [Web Workers](https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers) to spawn new workers that manage the time more accurately including when the tab is inactive.
+Web Timers addresses this by using HTML5's [Web Workers](https://developer.mozilla.org/en-US/docs/Web/API/Worker) to spawn new workers that manage the time more accurately including when the tab is inactive.
 
 
 ### Methods
