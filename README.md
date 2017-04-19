@@ -16,6 +16,8 @@ Web Timers exposes the following methods:
  - **`wwClearInterval(id)`**  -- Cancels a timeout previously established by calling `wwSetTimeout()`
 
 
+---
+
 ### License
 
 #### The MIT License (MIT)
