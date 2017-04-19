@@ -1,6 +1,6 @@
 # Web Timers
 
-## Overview
+### Overview
 
 Web Timers is a Web Worker based utility to provide a more reliable/precise approach to the default timing utilities given by the browser. These include: `setTimeout()`, `setInterval()`, `clearTimeout()`, and `clearInterval()` methods.
 
