@@ -1,7 +1,6 @@
 # Web Timers
 
-----------
-###Overview
+## Overview
 
 Web Timers is a Web Worker based utility to provide a more reliable/precise approach to the default timing utilities given by the browser. These include: `setTimeout()`, `setInterval()`, `clearTimeout()`, and `clearInterval()` methods.
 
@@ -17,10 +16,10 @@ Web Timers exposes the following methods:
  - **`wwClearInterval(id)`**  -- Cancels a timeout previously established by calling `wwSetTimeout()`
 
 ----
-###License
+### License
 
-####The MIT License (MIT)
-Copyright © `2017` `Uffaz Nathaniel`
+#### The MIT License (MIT)
+Copyright © 2017 Uffaz Nathaniel
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
