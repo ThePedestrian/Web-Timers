@@ -13,7 +13,7 @@ Web Timers exposes the following methods:
  - **`wwSetTimout(callback, delay)`** -- Sets a timer which executes a function or specified piece of code once after the timer expires. This method returns a timeoutId which may be passed to `wwClearTimeout()`
  - **`wwSetInterval(callback, delay)`** -- Sets a timer which repeatedly calls a function or executes a code snippet with a fixed time delay between each call
  - **`wwClearTimeout(id)`**  -- Cancels a timeout previously established by calling `wwSetTimeout()`
- - **`wwClearInterval(id)`**  -- Cancels a timeout previously established by calling `wwSetTimeout()`
+ - **`wwClearInterval(id)`**  -- Cancels an interval previously established by calling `wwSetInterval()`
 
 
 ---
