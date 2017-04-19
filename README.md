@@ -2,7 +2,7 @@
 
 ### Overview
 
-Web Timers is a Web Worker based utility to provide a more reliable/precise approach to the default timing utilities given by the browser. These include: `setTimeout()`, `setInterval()`, `clearTimeout()`, and `clearInterval()` methods.
+Web Timers is a Web Worker based utility to provide a more **reliable/precise** approach to the default timing utilities given by the browser. These include: `setTimeout()`, `setInterval()`, `clearTimeout()`, and `clearInterval()` methods.
 
 [Complications further arise](http://stackoverflow.com/a/16033979) when the tab is inactive, however, you still want some functionality to execute reliably at some interval in the background.
 
