@@ -8,6 +8,8 @@ Web Timers is a Web Worker based utility to provide a more reliable/precise appr
 
 Web Timers addresses this by using HTML5's [Web Workers](https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers) to spawn new workers that manage the time more accurately including when the tab is inactive.
 
+---
+
 ### Methods
 
 Web Timers exposes the following methods:
