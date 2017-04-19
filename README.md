@@ -9,7 +9,6 @@ Web Timers is a Web Worker based utility to provide a more reliable/precise appr
 Web Timers addresses this by using HTML5's [Web Workers](https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers) to spawn new workers that manage the time more accurately including when the tab is inactive.
 
 
-
 ### Methods
 
 Web Timers exposes the following methods:
@@ -18,6 +17,11 @@ Web Timers exposes the following methods:
  - **`wwSetInterval(callback, delay)`** -- Sets a timer which repeatedly calls a function or executes a code snippet with a fixed time delay between each call
  - **`wwClearTimeout(id)`**  -- Cancels a timeout previously established by calling `wwSetTimeout()`
  - **`wwClearInterval(id)`**  -- Cancels an interval previously established by calling `wwSetInterval()`
+
+
+
+### Browser Compatability
+Web Timers makes use of [Web Workers](https://developer.mozilla.org/en-US/docs/Web/API/Worker) and [Blob](https://developer.mozilla.org/en-US/docs/Web/API/Blob). If both are not supported, functions fallback to their equivalent counterparts.
 
 
 
